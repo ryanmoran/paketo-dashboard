@@ -64,12 +64,14 @@ describe('RepoList', () => {
           name: 'First Repository',
           url: 'first-url',
           openIssuesCount: 1,
+          topics: ["topic-one"]
         }),
         new Repo({
           id: 2345,
           name: 'Second Repository',
           url: 'second-url',
           openIssuesCount: 2,
+          topics: ["topic-one", "topic-two"]
         }),
       ]);
 

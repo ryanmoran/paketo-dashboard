@@ -54,6 +54,7 @@ describe('PullRequestList', () => {
             name: 'first-org/first-repo',
             url: 'first-url',
             openIssuesCount: 2,
+            topics: ["topic-one"]
           },
         ],
       });
@@ -105,6 +106,7 @@ describe('PullRequestList', () => {
           name: 'first-org/first-repo',
           url: 'first-url',
           openIssuesCount: 2,
+          topics: ["topic-one"]
         }),
       ]);
 

@@ -22,6 +22,7 @@ describe('ReleaseState', () => {
       name: 'some-repo-name',
       openIssuesCount: 0,
       url: 'some-repo-url',
+      topics: ["topic-one"]
     });
 
     releaseStore = new ReleaseStore();

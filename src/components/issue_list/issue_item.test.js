@@ -19,6 +19,7 @@ describe('IssueItem', () => {
       url: 'some-repo-url',
       openIssuesCount: 1,
       name: 'some-repo',
+      topics: ["topic-one"]
     });
 
     issue = new Issue({

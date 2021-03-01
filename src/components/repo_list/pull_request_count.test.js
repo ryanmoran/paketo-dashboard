@@ -30,6 +30,7 @@ describe('PullRequestCount', () => {
       name: 'some-org/some-repo',
       url: 'some-url',
       openIssuesCount: 3,
+      topics: ["topic-one", "topic-two"]
     });
 
     pullRequests = [
